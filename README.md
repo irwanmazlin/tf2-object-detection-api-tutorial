@@ -116,7 +116,7 @@ pip install opencv-contrib-python
 To go through the tutorial, clone this tutorial repo and follow the instructions step by step. 
 
 ```bash
-https://github.com/irwanmazlin/tf2-object-detection-api-tutorial.git
+git clone https://github.com/irwanmazlin/tf2-object-detection-api-tutorial.git
 ```
 
 To get started with the Object Detection API with TF2, let's download one of the models pre-trained with coco dataset from the [tf2 detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md), and use it for inference.
