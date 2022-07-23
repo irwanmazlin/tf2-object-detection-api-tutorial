@@ -194,10 +194,7 @@ I have used the examples provided, and solved some issues to make it work with T
 You can find my file in [data_gen/generate_tfrecord.py](data_gen/generate_tfrecord.py), and you can use it as follows:
 
 ```bash
-python generate_tfrecord.py --path_to_images ../data/raccoon_data/train/images \ 
-                            --path_to_annot ../data/raccoon_data/train_labels.csv \
-                            --path_to_label_map ../models/raccoon_labelmap.pbtxt \
-                            --path_to_save_tfrecords ../data/raccoon_data/train.record
+python generate_tfrecord.py --path_to_images ../data/raccoon_data/train/images --path_to_annot ../data/raccoon_data/train_labels.csv --path_to_label_map ../models/raccoon_labelmap.pbtxt --path_to_save_tfrecords ../data/raccoon_data/train.record
 ``` 
 
 For convenience, I have added all these steps in one shell script that you can run to generate the csv files and use them to generate the tfrecords.
