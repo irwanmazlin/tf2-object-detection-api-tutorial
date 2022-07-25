@@ -393,8 +393,7 @@ The video used for testing is downloaded from [here](https://www.youtube.com/wat
 
 
 ```bash
-python detect_objects.py --video_input --threshold 0.5 --model_path models/ssd_mobilenet_v2_raccoon/exported_model/saved_model \
-                         --path_to_labelmap models/raccoon_labelmap.pbtxt --video_path data/samples/clean_raccoon.mp4
+python detect_objects.py --video_input --threshold 0.5 --model_path models/ssd_mobilenet_v2_raccoon/exported_model/saved_model --path_to_labelmap models/raccoon_labelmap.pbtxt --video_path data/samples/clean_raccoon.mp4
 ```
 
 Here is the detection of the tidy raccoon from the video. The detection model is actually good, and very fast!
